@@ -4,17 +4,22 @@
 
   background-color: #ececec;
   height: 100vh;
+  width: 450px;
 }
+
+@media screen and (min-width: 768px) {
+}
+
 .browser-history-top-container {
   background-color: #3367d6;
   display: flex;
-  width: 100%;
+  width: 70%;
   height: 60px;
 }
 .browser-history-body {
   align-self: center;
   height: 100vh;
-  width: 97%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
